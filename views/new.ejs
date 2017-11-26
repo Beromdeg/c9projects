@@ -1,0 +1,16 @@
+<% include partials/header%>
+<h1>add new camping site</h1>
+
+<!--form to get the POST Request-->
+<form action = '/campsites' method = 'POST'>
+    <input type = 'text' placeholder = 'site name' name = 'name'>
+    <input type = 'text' placeholder = 'image url' name = 'image'>
+    <button>ADD!</button>
+    
+</form>
+<div>
+    <ul>
+        <li><a href = '/campsites'>Go Back</a></li>
+    </ul>
+</div>
+<% include partials/footer%>
