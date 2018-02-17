@@ -6,7 +6,7 @@
 
 #Layout basics 
     *add partials
-    *add Bs
+    *add BS
 
 #Create new Camp site 
     *use RESTFUL routing convention
